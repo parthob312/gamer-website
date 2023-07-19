@@ -124,6 +124,59 @@
   gap: 10px;
 }
 
+/* this section for gamer */
+
+.gamer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 240px;
+  gap: 52px;
+}
+.gamer-section2 {
+  text-align: right;
+}
+.gamer-title {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gamer-content {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 520px;
+  margin: 24px 0 32px 0;
+}
+.gamer-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  padding: 21px 40px;
+  border: 0;
+}
+.gamer-content1 {
+  color: #534c64;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  margin-top: 24px;
+}
+.gamer-content2 {
+  color: #534c64;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
 /* responsive */
 @media screen and (max-width: 567px) {
   .main-nav {
@@ -147,5 +200,17 @@
   .bannar-content {
     margin-top: 20px;
     padding: 27px;
+  }
+  .gamer {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0;
+  }
+  .gamer-content {
+    width: auto;
+  }
+  .gamer-section2 {
+    text-align: center;
+    padding: 0 20px;
   }
 }
