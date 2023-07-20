@@ -291,6 +291,7 @@
 /* this section for careers */
 .section-place {
   display: flex;
+  justify-content: space-between;
 }
 .list {
   list-style-type: none;
@@ -483,6 +484,13 @@
   }
   .careers {
     flex-direction: column;
+    padding: 70px 15px;
+  }
+  .careers-btn {
+    margin-bottom: 70px;
+  }
+  .careers-descriptions {
+    width: auto;
   }
   .games {
     padding: 0;
