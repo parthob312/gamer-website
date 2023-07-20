@@ -500,9 +500,6 @@
     margin-top: 20px;
     padding: 30px 0;
   }
-  .bannar-img {
-    margin-top: 20px;
-  }
   .gamer {
     flex-direction: column;
     gap: 40px;
@@ -535,7 +532,6 @@
   }
   .instantly-txt {
     width: auto;
-    padding: 20px;
   }
   .image-2 {
     position: relative;
@@ -618,9 +614,6 @@
   .card {
     grid-template-columns: repeat(1, 1fr);
     padding: 40px 0;
-  }
-  .box-txt {
-    padding: 0 40px;
   }
 }
 
